@@ -42,6 +42,7 @@ public class ObjectList {
             FileInputStream fileInputStream = new FileInputStream(fileName);
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
             List<Person> personsRead = (List<Person>) objectInputStream.readObject();
+
             objectInputStream.close();
             fileInputStream.close();
 
