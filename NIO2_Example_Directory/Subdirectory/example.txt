@@ -1,0 +1,1 @@
+This is an example of Java JAVA_3.IO_NIO.NIO2.
